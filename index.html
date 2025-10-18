@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Página Avanzada</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Bienvenido a MoraWeb</h1>
+        <button id="themeToggle">Cambiar Tema</button>
+    </header>
+
+    <nav>
+        <a href="#about">Sobre mí</a>
+        <a href="#services">Servicios</a>
+        <a href="#contact">Contacto</a>
+    </nav>
+
+    <main>
+        <section id="about">
+            <h2>Sobre mí</h2>
+            <p>Esta es una página más completa para practicar HTML, CSS y JS.</p>
+        </section>
+
+        <section id="services">
+            <h2>Servicios</h2>
+            <div class="card-container">
+                <div class="card">Diseño Web</div>
+                <div class="card">Desarrollo Frontend</div>
+                <div class="card">Optimización SEO</div>
+            </div>
+        </section>
+
+        <section id="contact">
+            <h2>Contacto</h2>
+            <form id="contactForm">
+                <input type="text" placeholder="Tu nombre" required>
+                <input type="email" placeholder="Tu correo" required>
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
